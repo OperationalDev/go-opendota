@@ -37,7 +37,7 @@ type PlayerParam struct {
 	ExcAccountID  int64    `url:"excluded_account_id,omitempty"`
 	WithHeroID    int      `url:"with_hero_id,omitempty"`
 	AgainstHeroID int      `url:"against_hero_id,omitempty"`
-	Significant   int      `url:"significant,omitempty"`
+	Significant   int      `url:"significant"`
 	Sort          string   `url:"sort,omitempty"`
 	Project       []string `url:"project,omitempty"`
 }
