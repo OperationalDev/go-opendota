@@ -213,7 +213,7 @@ type MatchPlayer struct {
 	TotalGold               int                       `json:"total_gold"`
 	TotalXp                 int                       `json:"total_xp"`
 	KillsPerMin             float64                   `json:"kills_per_min"`
-	Kda                     int                       `json:"kda"`
+	Kda                     float64                   `json:"kda"`
 	Abandons                int                       `json:"abandons"`
 	NeutralKills            int                       `json:"neutral_kills"`
 	TowerKills              int                       `json:"tower_kills"`
