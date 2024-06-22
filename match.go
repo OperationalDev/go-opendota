@@ -282,8 +282,8 @@ type ObsLog struct {
 	Key        string `json:"key"`
 	Slot       int    `json:"slot"`
 	X          float32    `json:"x"`
-	Y          int    `json:"y"`
-	Z          int    `json:"z"`
+	Y          float32    `json:"y"`
+	Z          float32    `json:"z"`
 	Entityleft bool   `json:"entityleft"`
 	Ehandle    int    `json:"ehandle"`
 	PlayerSlot int    `json:"player_slot"`
